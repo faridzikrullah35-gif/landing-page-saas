@@ -12,7 +12,7 @@ export default function LandingPage() {
     <AppLayout>
       <main className="pt-24">
         <FadeInSection>
-          <LandingHero />
+          <LandingHero darkMode={true} />
         </FadeInSection>
         <FadeInSection>
           <FeaturesSection />
