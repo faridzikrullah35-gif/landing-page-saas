@@ -6,6 +6,7 @@ import FeaturesSection from "@/components/ui/FeaturesSection";
 import Testimonials from "@/components/ui/Testimonials";
 import StatsSection from "@/components/ui/StatsSection";
 import FadeInSection from "@/components/ui/FadeInSection";
+import UseCaseSection from "@/components/ui/UseCaseSection";
 
 export default function LandingPage() {
   return (
@@ -13,6 +14,9 @@ export default function LandingPage() {
       <main className="pt-24">
         <FadeInSection>
           <LandingHero darkMode={true} />
+        </FadeInSection>
+        <FadeInSection>
+          <UseCaseSection />
         </FadeInSection>
         <FadeInSection>
           <FeaturesSection />

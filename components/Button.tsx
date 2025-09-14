@@ -26,7 +26,7 @@ export default function Button({
 
   // Base style
   const base =
-    "cursor-pointer px-5 py-2 rounded-xl font-semibold shadow-lg transition-all duration-300 flex items-center justify-center gap-2";
+    "cursor-pointer px-5 py-2 rounded-xl font-semibold shadow-lg transition-all duration-300 flex items-center justify-center gap-2 transform";
 
   // Variants
   const variants = {
@@ -38,6 +38,10 @@ export default function Button({
       : "bg-gray-200 hover:bg-gray-300 text-gray-900",
   };
 
+  // Hover animation (pop forward)
+  const hoverEffect =
+    "hover:scale-105 hover:-translate-y-0.5 hover:shadow-xl active:scale-95 active:translate-y-0";
+
   return (
     <button
       type={type}
@@ -46,6 +50,7 @@ export default function Button({
       className={`
         ${base} 
         ${variants[variant]} 
+        ${hoverEffect}
         ${disabled || loading ? "opacity-60 cursor-not-allowed" : ""} 
         ${className}
       `}

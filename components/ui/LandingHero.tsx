@@ -33,12 +33,12 @@ export default function LandingHero({ darkMode }: LandingHeroProps) {
       <main className="relative w-full h-screen flex items-center justify-center text-center px-4 sm:px-6 md:px-8">
         <div className="max-w-3xl relative z-10">
           <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 sm:mb-6 leading-snug sm:leading-tight">
-            Scale your startup{" "}
-            <span className="text-orange-500">without limits</span>
+            Modern <span className="text-orange-500">Websites & SaaS</span>{" "}
+            for Growing Businesses
           </h1>
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 mb-6 sm:mb-8">
-            Our all-in-one SaaS platform helps you launch, manage, and grow
-            faster so you can focus on building what really matters.
+            Bring your business online in minutes. from bookings to payments, 
+            we help startups and SMEs scale faster, smarter, and with confidence.
           </p>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-3">
             <Button
